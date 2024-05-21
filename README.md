@@ -14,7 +14,7 @@
 - 選擇一個文件夾以保存生成的 FNT 文件和 PNG 圖片。你可以選擇與輸入文件夾不同的位置。
 ![image](https://github.com/xxeye/generate-fnt-tool/blob/main/image/Pasted%20image%2020240521141841.png)
 #### 步驟 4：輸入圖片大小
-- 在應用程序提供的提示中，輸入你希望的圖片大小。這將決定生成的 PNG 圖片中數字的大小。
+- 在應用程序提供的提示中，輸入你希望的圖片大小。這將決定生成的 PNG 圖片大小。
 ![image](https://github.com/xxeye/generate-fnt-tool/blob/main/image/Pasted%20image%2020240521141905.png)
 #### 步驟 5：完成
 - 確認所有設置無誤後，點擊“OK”按鈕開始生成 FNT 文件和 PNG 圖片。
