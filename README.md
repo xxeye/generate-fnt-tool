@@ -21,4 +21,4 @@
 - 當看到“完成！”的信息時，表示字體文件和圖片已成功生成。
 ![image](https://github.com/xxeye/generate-fnt-tool/blob/main/image/Pasted%20image%2020240521141954.png)
 
-遵循這些步驟，您可以利用 "generate_fnt_and_imageV2" 工具有效地創建位圖字體，進一步用於各種應用和媒介中。"# generate-fnt-tool" 
+遵循這些步驟，您可以利用 "generate_fnt_and_imageV2" 工具有效地創建位圖字體，進一步用於各種應用和媒介中。
