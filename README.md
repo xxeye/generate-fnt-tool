@@ -35,6 +35,7 @@ Here is a detailed guide on how to use the "generate_fnt_and_imageV2" tool:
 
 ![image](https://github.com/xxeye/generate-fnt-tool/blob/main/image/Pasted%20image%2020240521141742.png)
 
+
 Character | ASCII Code | Character | ASCII Code | Character | ASCII Code
 ----------|------------|-----------|------------|-----------|------------
       !   | 33         |    "      | 34         |    #      | 35
@@ -56,7 +57,7 @@ Character | ASCII Code | Character | ASCII Code | Character | ASCII Code
       Q   | 81         |    R      | 82         |    S      | 83
       T   | 84         |    U      | 85         |    V      | 86
       W   | 87         |    X      | 88         |    Y      | 89
-      Z   | 90         |    [      | 91         |    \\     | 92
+      Z   | 90         |    [      | 91         |    \      | 92
       ]   | 93         |    ^      | 94         |    _      | 95
       `   | 96         |    a      | 97         |    b      | 98
       c   | 99         |    d      | 100        |    e      | 101
@@ -69,6 +70,7 @@ Character | ASCII Code | Character | ASCII Code | Character | ASCII Code
       x   | 120        |    y      | 121        |    z      | 122
       {   | 123        |    &#124; | 124        |    }      | 125
       ~   | 126        |           |            |           | 
+
 
 ### Step 2: Select Input Folder
 
