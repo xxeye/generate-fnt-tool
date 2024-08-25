@@ -68,7 +68,7 @@ Character | ASCII Code | Character | ASCII Code | Character | ASCII Code
       r   | 114        |    s      | 115        |    t      | 116
       u   | 117        |    v      | 118        |    w      | 119
       x   | 120        |    y      | 121        |    z      | 122
-      {   | 123        |    &#124; | 124        |    }      | 125
+      {   | 123        |    \`|\`  | 124        |    }      | 125
       ~   | 126        |           |            |           | 
 
 
