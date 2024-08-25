@@ -1,24 +1,105 @@
-這是使用 "generate_fnt_and_imageV2" 工具生成 FNT 文件和 PNG 圖片的詳細步驟指南：
+# Generate FNT and Textures Tool
 
-### 步驟說明：
+This tool is designed to generate a `.fnt` file and a corresponding `.png` sprite sheet from individual images in a specified input folder. It is particularly useful for game development, where you need to consolidate multiple images into a single texture atlas.
 
-#### 步驟 1：準備原始圖片
-- 將原始數字圖片按照 BMfont 的編碼命名規則進行命名。
-- 確保所有圖片存放在一個文件夾中，此文件夾的名稱將用作輸出的 FNT 文件和 PNG 貼圖的名稱。
+## Features
+
+- Combines individual images into a single sprite sheet.
+- Generates a `.fnt` file containing metadata for use in game engines.
+- Supports customizable output image dimensions.
+
+## Requirements
+
+- Python 3.x
+- Pillow (Python Imaging Library)
+
+## Installation
+
+Clone this repository and install the required packages using pip:
+
+```bash
+git clone https://github.com/xxeye/generate-fnt-tool.git
+cd your-repo-name
+pip install -r requirements.txt
+```
+
+## Usage
+
+Here is a detailed guide on how to use the "generate_fnt_and_imageV2" tool:
+
+### Step 1: Prepare Original Images
+
+- Rename your original images according to the ASCII encoding rules.
+- Ensure all images are stored in a single folder. The name of this folder will be used as the name of the output `.fnt` file and `.png` sprite sheet.
+
+
 ![image](https://github.com/xxeye/generate-fnt-tool/blob/main/image/Pasted%20image%2020240521141742.png)
-#### 步驟 2：選擇輸入文件夾
-- 啟動 `generate_fnt_and_imageV2.exe` 應用程序。
-- 在應用程序中，點擊“瀏覽”按鈕，選擇包含已命名數字圖片的文件夾。
+
+Character | ASCII Code | Character | ASCII Code | Character | ASCII Code
+----------|------------|-----------|------------|-----------|------------
+      !   | 33         |    "      | 34         |    #      | 35
+      $   | 36         |    %      | 37         |    &      | 38
+      '   | 39         |    (      | 40         |    )      | 41
+      *   | 42         |    +      | 43         |    ,      | 44
+      -   | 45         |    .      | 46         |    /      | 47
+      0   | 48         |    1      | 49         |    2      | 50
+      3   | 51         |    4      | 52         |    5      | 53
+      6   | 54         |    7      | 55         |    8      | 56
+      9   | 57         |    :      | 58         |    ;      | 59
+      <   | 60         |    =      | 61         |    >      | 62
+      ?   | 63         |    @      | 64         |    A      | 65
+      B   | 66         |    C      | 67         |    D      | 68
+      E   | 69         |    F      | 70         |    G      | 71
+      H   | 72         |    I      | 73         |    J      | 74
+      K   | 75         |    L      | 76         |    M      | 77
+      N   | 78         |    O      | 79         |    P      | 80
+      Q   | 81         |    R      | 82         |    S      | 83
+      T   | 84         |    U      | 85         |    V      | 86
+      W   | 87         |    X      | 88         |    Y      | 89
+      Z   | 90         |    [      | 91         |    \\     | 92
+      ]   | 93         |    ^      | 94         |    _      | 95
+      `   | 96         |    a      | 97         |    b      | 98
+      c   | 99         |    d      | 100        |    e      | 101
+      f   | 102        |    g      | 103        |    h      | 104
+      i   | 105        |    j      | 106        |    k      | 107
+      l   | 108        |    m      | 109        |    n      | 110
+      o   | 111        |    p      | 112        |    q      | 113
+      r   | 114        |    s      | 115        |    t      | 116
+      u   | 117        |    v      | 118        |    w      | 119
+      x   | 120        |    y      | 121        |    z      | 122
+      {   | 123        |    &#124; | 124        |    }      | 125
+      ~   | 126        |           |            |           | 
+
+### Step 2: Select Input Folder
+
+- Launch the `generate_fnt_and_imageV2.exe` application.
+- In the application, click the "Browse" button to select the folder containing the renamed images.
+
 ![image](https://github.com/xxeye/generate-fnt-tool/blob/main/image/Pasted%20image%2020240521141822.png)
-#### 步驟 3：選擇輸出文件夾
-- 選擇一個文件夾以保存生成的 FNT 文件和 PNG 圖片。你可以選擇與輸入文件夾不同的位置。
+
+### Step 3: Select Output Folder
+
+- Choose a folder where the generated `.fnt` file and `.png` image will be saved. You can choose a different location from the input folder.
+
 ![image](https://github.com/xxeye/generate-fnt-tool/blob/main/image/Pasted%20image%2020240521141841.png)
-#### 步驟 4：輸入圖片大小
-- 在應用程序提供的提示中，輸入你希望的圖片大小。這將決定生成的 PNG 圖片大小。
+
+### Step 4: Input Image Size
+
+- Enter the desired image size in the prompt provided by the application. This will determine the size of the generated `.png` image.
+
 ![image](https://github.com/xxeye/generate-fnt-tool/blob/main/image/Pasted%20image%2020240521141905.png)
-#### 步驟 5：完成
-- 確認所有設置無誤後，點擊“OK”按鈕開始生成 FNT 文件和 PNG 圖片。
-- 當看到“完成！”的信息時，表示字體文件和圖片已成功生成。
+
+### Step 5: Generate Files
+
+- After confirming all settings, click the "OK" button to start generating the `.fnt` file and `.png` image.
+- When you see the "Done!" message, the font file and image have been successfully generated.
+
 ![image](https://github.com/xxeye/generate-fnt-tool/blob/main/image/Pasted%20image%2020240521141954.png)
 
-遵循這些步驟，您可以利用 "generate_fnt_and_imageV2" 工具有效地創建位圖字體，進一步用於各種應用和媒介中。
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contributions
+
+If you have any questions or issues, please feel free to open an Issue to discuss them.
