@@ -73,7 +73,7 @@ Here is a detailed guide on how to use the "generate_fnt_and_imageV2" tool:
 
 ### Step 2: Select Input Folder
 
-- Launch the `generate_fnt_and_imageV2.exe` application.
+- Launch the EXE file (`generate_fnt_and_imageV2.exe`) or run the Python script (`generate_fnt_and_imageV2.py`) depending on your environment.
 - In the application, click the "Browse" button to select the folder containing the renamed images.
 
 ![image](https://github.com/xxeye/generate-fnt-tool/blob/main/image/Pasted%20image%2020240521141822.png)
